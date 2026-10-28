@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BanjarInfo - Profil Pengguna</title>
+    <style>
+        .card-box {
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 1em;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #edf2f7;
+            font-size: 0.95em;
+        }
+        .info-row:last-child {
+            border-bottom: none;
+        }
+        .btn-action {
+            background-color: #1b4965;
+            color: #ffffff;
+            padding: 10px 24px;
+            text-decoration: none;
+            border-radius: 2em;
+            font-size: 0.9em;
+            font-weight: bold;
+            display: inline-block;
+        }
+        .btn-logout {
+            background-color: #e53e3e;
+            color: #ffffff;
+            padding: 10px 24px;
+            text-decoration: none;
+            border-radius: 2em;
+            font-size: 0.9em;
+            font-weight: bold;
+            display: inline-block;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body style="background-color: #f4f6f8; color: #333; font-family: Arial, sans-serif; margin: 0; padding: 0;">
+
+    
+    <div style="background-color: #ffffff; border-bottom: 1px solid #ddd; padding: 12px 30px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+        <a href="inovasi.html" style="background-color: #f0f4f8; color: #1b4965; padding: 6px 14px; text-decoration: none; border-radius: 2em; font-weight: bold; font-size: 0.9em; border: 1px solid #cbd5e0;">
+            ← Kembali ke Utama
+        </a>
+        <div style="font-size: 1.2em; font-weight: bold; color: #1b4965;">
+            Profil Saya
+        </div>
+        <div style="width: 100px;"></div> 
+    </div>
+
+    
+    <div style="width: 80%; max-width: 750px; margin: 30px auto;">
+
+     
+        <div class="card-box" style="text-align: center;">
+            <!-- GANTI FILE 'profile-user.jpg' DENGAN FOTO PROFIL MANUALLMU -->
+            <img src="user.jpg" alt="Foto Profil" style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; border: 3px solid #1b4965; margin-bottom: 15px; display: block; margin-left: auto; margin-right: auto;">
+            
+            <h2 style="color: #1b4965; margin: 5px 0 5px 0;">Wayar</h2>
+            <p style="color: #718096; margin: 0 0 12px 0; font-size: 0.95em;">Pendatang / Warga Baru</p>
+            
+            
+            <span style="background-color: #e6fffa; color: #234e52; border: 1px solid #b2f5ea; padding: 5px 15px; border-radius: 2em; font-size: 0.85em; font-weight: bold;">
+                🛡️ Banjar Peguyangan Kaja (Terverifikasi)
+            </span>
+        </div>
+
+       
+        <div class="card-box">
+            <h3 style="color: #1b4965; border-bottom: 2px solid #ed8936; padding-bottom: 8px; margin-top: 0;">
+                📋 Informasi Akun & Data Diri
+            </h3>
+
+            <div class="info-row">
+                <span style="color: #718096; font-weight: bold;">Nama Lengkap</span>
+                <span style="color: #2d3748;">Athena</span>
+            </div>
+            <div class="info-row">
+                <span style="color: #718096; font-weight: bold;">Nomor WhatsApp</span>
+                <span style="color: #2d3748;">0812-3456-7890</span>
+            </div>
+            <div class="info-row">
+                <span style="color: #718096; font-weight: bold;">Status Tinggal</span>
+                <span style="color: #2d3748;">Warga Baru / Perantau</span>
+            </div>
+            <div class="info-row">
+                <span style="color: #718096; font-weight: bold;">Alamat di Banjar</span>
+                <span style="color: #2d3748;">Jl. Peguyangan</span>
+            </div>
+            <div class="info-row">
+                <span style="color: #718096; font-weight: bold;">Tanggal Bergabung</span>
+                <span style="color: #2d3748;">1 Oktober 2026</span>
+            </div>
+
+    
+            <div style="text-align: center; margin-top: 25px;">
+                <a href="#" class="btn-action">Edit Profil</a>
+                <a href="index.html" class="btn-logout">Keluar Akun</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div style="background-color: #1a202c; color: #888; text-align: center; padding: 25px; font-size: 0.9em; border-top: 1px solid #333; margin-top: 40px;">
+        <p style="margin: 5px 0; color: #ccc;"><b>BanjarInfo - Peguyangan Kaja</b></p>
+        <p style="margin: 5px 0;">📍 Balai Banjar Peguyangan Kaja, Denpasar | 📞 08123456789 | 📧 info@banjarinfo.com</p>
+        <p style="margin: 15px 0 5px 0; font-size: 0.8em; color: #555;">© 2026 BanjarInfo. All Rights Reserved.</p>
+    </div>
+
+</body>
+</html>
